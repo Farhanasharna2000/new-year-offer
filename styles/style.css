@@ -38,6 +38,10 @@ img {
     color: rgba(255, 255, 255, 0.8);
 }
 
+.color-4 {
+    color: rgba(7, 2, 17, 0.6);
+}
+
 /* banner styles */
 .banner-container {
     margin-top: 20px;
@@ -166,4 +170,138 @@ img {
     font-size: 1.25rem;
     font-weight: 700;
 }
+
 /* new best offer styles */
+.new-best-offer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+
+}
+
+.new-best-offer {
+    width: 33%;
+}
+
+.new-best-offer-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.new-best-offer-title {
+    font-size: 2.98rem;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.new-best-offer-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.new-best-offer-img {
+    width: 33%;
+    margin: 0 118px;
+    position: relative;
+}
+
+.new-best-offer-img::after {
+    position: absolute;
+    content: '';
+    top: -33px;
+    left: -31px;
+    width: 360px;
+    height: 360px;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+.new-best-offer-year {
+    width: 33%;
+}
+
+.new-best-offer-year-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.new-best-offer-year-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.new-best-offer-year img {
+    width: 40%;
+    height: 140px;
+    margin-top: 43px;
+}
+
+/* holiday sales styles */
+.holiday-sales-container {
+    margin-bottom: 120px;
+}
+
+.holiday-sales {
+    text-align: center;
+}
+
+.holiday-sales-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiday-sales-title {
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 28px;
+
+}
+
+.holiday-sales-description {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 0 166px;
+}
+
+/* portfolio styles */
+.portfolio-container {
+    margin-bottom: 120px;
+}
+
+.portfolio-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.portfolio-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 281px;
+    margin-bottom: 48px;
+}
+
+.portfolio-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* subscribe styles */
+.subscribe-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
