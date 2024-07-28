@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-body{
+.merriweather{
     font-family: "Merriweather", serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
 }
 *{
     box-sizing: border-box;
@@ -17,6 +21,9 @@ img{
 }
 .color-1{
     color: rgb(255, 255, 255);
+}
+.color-2{
+    color: rgb(255, 0, 0);
 }
 /* banner styles */
 .banner-container {
@@ -43,3 +50,31 @@ font-weight: 400;
     text-align: center;
 }
 /* holiday deals styles  */
+.holiday-deals-container {
+    text-align: center;
+    margin-top: 120px;
+}
+.holiday-deals-title{
+    font-size:5.5rem;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.holiday-deals-subtitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+.holiday-deals-description{
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 48px;
+
+}
+/* holiday deals styles  */
+.holiday-deals-container img{
+    width: 50%;
+    height: 500px;
+    margin-bottom: 120px;
+
+}
