@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: "Merriweather", serif;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* common styles */
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+.color-1{
+    color: rgb(255, 255, 255);
+}
+/* banner styles */
+.banner-container {
+    margin-top: 20px;
+    border-radius: 16px;
+    background:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/banner.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-subtitle{
+    font-size: 2rem;
+font-weight: 400;
+}
+.banner-title {
+    font-size: 4.5rem;
+    font-weight: 900;
+    padding: 0 112px;
+    text-align: center;
+}
+/* holiday deals styles  */
