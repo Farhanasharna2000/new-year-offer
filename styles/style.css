@@ -25,6 +25,9 @@ img{
 .color-2{
     color: rgb(255, 0, 0);
 }
+.color-3{
+    color: rgba(255, 255, 255, 0.8);
+}
 /* banner styles */
 .banner-container {
     margin-top: 20px;
@@ -63,18 +66,51 @@ font-weight: 400;
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 16px;
-
 }
 .holiday-deals-description{
     font-size: 2.3rem;
     font-weight: 700;
     margin-bottom: 48px;
-
 }
-/* holiday deals styles  */
 .holiday-deals-container img{
     width: 50%;
     height: 500px;
     margin-bottom: 120px;
 
+}
+/* midnight party styles  */
+.midnight-party-container {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Vectorrr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    margin-bottom: 120px;
+
+}
+.midnight-party-title {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 88px;
+    margin-bottom: 24px;
+    letter-spacing: 5px;
+}
+.midnight-party-description {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 5px;
+    margin-bottom: 48px;
+
+}
+.btn {
+    text-decoration: none;
+    margin-left: 40px;
+}
+.midnight-party-img img {
+    margin: 67px 0;
 }
