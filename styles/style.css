@@ -22,10 +22,6 @@ body {
     margin: 0 auto;
 }
 
-img {
-    width: 100%;
-}
-
 .color-1 {
     color: rgb(255, 255, 255);
 }
@@ -243,6 +239,10 @@ img {
 /* holiday sales styles */
 .holiday-sales-container {
     margin-bottom: 120px;
+    position: relative;
+    height: 980px;
+    /* border: 1px solid red; */
+    width: 100%;
 }
 
 .holiday-sales {
@@ -267,6 +267,28 @@ img {
     font-weight: 500;
     line-height: 32px;
     padding: 0 166px;
+    margin-bottom: 64px;
+}
+.solid-color {
+    width: 100%;
+    height: 235px;
+    border-radius: 16px 0px 16px 16px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 76%;
+}
+.gift-box {
+    width: 50%;
+    height: 641.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.discount {
+    position: relative;
+    left: 90px;
+    top: 45px;
 }
 
 /* portfolio styles */
@@ -343,4 +365,8 @@ form{
     background-color:rgb(255, 0, 0);
     color:rgb(255, 255, 255);
 
+}
+/* footer styles */
+.footer{
+    background-color: black;
 }
